@@ -1,12 +1,9 @@
 # brazil-crimes.org
-Geospatial Data Repository for https://www.brazil-crimes.org/  : satellite imagery, land use, environmental, and infrastructure data with crime records from the Comissão Pastoral da Terra (2011–2021). It reveals links between environmental destruction and atrocity crimes in Amazon, supporting research, advocacy, and human rights. 
+Geospatial Data Repository for https://www.brazil-crimes.org/  satellite imagery, land use, environmental, and infrastructure data with crime records from the Comissão Pastoral da Terra (2011–2021). It reveals links between environmental destruction and atrocity crimes in Amazon, supporting research, advocacy, and human rights. 
 
 # Download full dataset https://drive.google.com/drive/folders/15NoIRGGCj-lYE80BnOK3PIpxzsTxq50q?usp=drive_link
 
-
-# Geospatial Data Repository for [Brazil Crimes](https://www.brazil-crimes.org/)
-
-This repository contains a range of geospatial and tabular datasets used in the digital evidence platform **Brazil: Atrocity Crimes in the Amazon**. The data combines satellite imagery, administrative, land use, environmental, infrastructure, and crime data from various open sources, with a focus on rural land users and defenders in Brazil.
+This repository contains a range of geospatial and tabular datasets used in the digital evidence platform **Brazil: Atrocity Crimes in the Amazon**. The data combines satellite imagery, administrative, land use, environmental, infrastructure, from various open sources and CPT crime data. 
 
 ## Dataset Overview
 
@@ -34,7 +31,7 @@ This collection highlights the links between the intensification of crimes again
     - JBS Slaughterhouse Locations
   
 - **Environmental Data**:
-    - Fires (2011-2021, Legal Amazon)
+    - Forest Fires (2011-2021, Legal Amazon)
     - Land Cover (2011 and 2020)
     - Deforestation (2011-2021, Legal Amazon)
     - Illegal Deforestation (IBAMA)
@@ -43,35 +40,30 @@ This collection highlights the links between the intensification of crimes again
     - Soybean (2020)
     - Pasture (2020)
 
-- **Crime & Social Data**:
+- **Crime Data**:
     - Attacks against Indigenous Peoples (CIMI Data)
+    - Land conflict and crime against rural land users and environmental defenders CPT 
   
 ### Data Types and Formats
 
-The dataset includes:
-- **Points** (e.g., JBS Slaughterhouses, Hydroelectric Stations)
-- **Lines** (e.g., Roads, Trainlines)
+Geospatial formats include `.shp`, `.geojson`, `.tiff`, `.mbtiles`, and `.kml`.
+The data types:
 - **Polygons** (e.g., Administrative Boundaries, Indigenous Territories, Mining Concession Areas)
 - **Raster Data** (e.g., Land Cover, Soybean, Pasture)
-
-These files are available in common geospatial formats such as `.shp`, `.geojson`, `.tiff`, `.mbtiles`, and `.kml`.
+- **Points** (e.g.,  Forest Fires, illegal mining, JBS Slaughterhouses)
+- **Lines** (e.g., Roads)
 
 ## Usage
 
 This data is made publicly available to support:
-- **Research** on the intersection of environmental destruction and crimes against land defenders.
-- **Advocacy** for human and environmental rights in Brazil.
-- **Policy-making** in the fields of environmental conservation and crime prevention.
-
+- **Research** in environmental justice and human rights
+- **Advocacy** for legal action in international law and Brazil
+- **Policy-making** for legal action in international law and Brazil
+- 
 ## How to Access
 
-- Data is organized into thematic folders (e.g., Crime Data, Environmental Data, Land Use).
-- Each dataset is accompanied by metadata to describe its content and use.
-- The datasets are available in both vector (e.g., shapefiles) and raster formats for geospatial analysis.
-
-## License
-
-The dataset is made publicly available under [INSERT LICENSE TYPE HERE]. Proper attribution is required when using the data.
+- Data is organized into folders corresponding to brazil-crimes chapters: I. CONTEXTUAL BACKGROUND, II. VIOLENCE AGAINST RURAL LAND USERS & DEFENDERS, V. INTERESTS OF JUSTICE
+- I. CONTEXTUAL BACKGROUND dataset is accompanied by metadata to describe its content 
 
 ## Acknowledgments
 
@@ -80,5 +72,15 @@ This project was made possible through the efforts of the **Comissão Pastoral d
 ## Contact
 
 For questions or further details, please contact:  
-**Email**: [insert email address]  
+**Email**: [olga.lucko@ntnu.no , olga@interprt.org ]  
 **Website**: [https://www.brazil-crimes.org/](https://www.brazil-crimes.org/)
+
+
+## Accessing the Data
+For more details and access to the dataset, visit:
+
+- **Website**: [https://www.brazil-crimes.org/](https://www.brazil-crimes.org/)
+- **More Information**: [www.interprt.org](https://www.interprt.org)
+
+## License
+This dataset is made available under an open license for research and advocacy use. Please see the repository's license for full terms and conditions.
